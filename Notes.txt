@@ -1,0 +1,34 @@
+Langchain - Models, Prompt templates, Chains "|", output parsers, tools, retrivela systems  
+
+Prompt | LLM | structured_out
+
+LangGrpah - state, nodes, Connection(edge), cycles
+
+Our Ai aplication would assist with this process
+
+1. Receive customer complaints through a website.
+
+2. Validate the information provided.
+
+3. Use AI to understand the complaint.
+
+4. Check whether required details are present.
+
+5. Apply refund-review business rules.
+
+6. Route expensive cases to a manager.
+
+7. Store the complaint and decision for later reference.
+
+=> Understanding the architecture
+
+Presentaion layer - streamlit -> waht the customer sees and interact with
+|
+Validation layer - Pydantic -> Checks data types and constraints
+|
+AI layer - Langchain -> Understand customer language
+|
+Orchestration layer - LangGrpah -> Coordinates and looks for the conditional paths
+|
+Persistence layer - SQLite -> Storing the complaints and the descisions
+
